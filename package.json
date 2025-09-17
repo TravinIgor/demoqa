@@ -1,0 +1,26 @@
+{
+  "name": "demoqa",
+  "version": "1.0.0",
+  "description": "Напиши автотест на Playwright + TypeScript, который проходит форму по ссылке https://demoqa.com/automation-practice-form Задача: Заполнить все обязательные поля формы (можно использовать любые валидные данные); Нажать кнопку Submit; Проверить, что форма успешно отправлена (появилась таблица с введёнными данными); Убедиться, что в таблице отображаются те же данные, которые вы вводили. Бонус: Использовать POM; Использовать fixtures Playwright для внедрения FormPage в тест (через test.extend), чтобы не создавать объект страницы внутри каждого теста вручную. Запустить тот же тест в мобильном viewport (например, iPhone 15 Pro) и убедиться, что он тоже проходит.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravinIgor/demoqa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TravinIgor/demoqa/issues"
+  },
+  "homepage": "https://github.com/TravinIgor/demoqa#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.5.0"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
